@@ -10,11 +10,11 @@ function updatePlaylist(playlist, artistName, songTitle){
   updatePlaylist(playlist, 'slowdive', "My Bloody Valentine")
 
 
-  function removeFromPlaylist(playlist, artistName){
+  function removeFromPlaylist(playlist){
 
      delete playlist.slowdive;
 
      return playlist
   }
 
-  removeFromPlaylist(playlist, "slowdive")
+  removeFromPlaylist(playlist)
