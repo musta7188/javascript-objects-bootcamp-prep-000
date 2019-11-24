@@ -7,13 +7,12 @@ function updatePlaylist(playlist, artistName, songTitle){
   return playlist
 }
 
+  updatePlaylist(playlist, 'Slowdive', "My Bloody Valentine")
 
-updatePlaylist(playlist, 'Slowdive', "My Bloody Valentine")
+
+  function removeFromPlaylist(playlist, artistName){
+
+     return delete playlist.artistName;
 
 
-function removeFromPlaylist(playlist, artistName){
-
-  delete playlist.artistName;
-
-  return playlist
-}
+  }
